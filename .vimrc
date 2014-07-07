@@ -1,4 +1,3 @@
-
 "Personal preferenc .vimrc file
 "Maintained by George Ruan <ruan.george@gmail.com>
 
@@ -8,3 +7,5 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+"Show line numbers
+set number
