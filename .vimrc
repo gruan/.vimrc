@@ -24,13 +24,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Avoid a name conflict with L9
-Plugin 'user/L9', {'name': 'newL9'}
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -50,6 +46,13 @@ filetype plugin indent on    " required
 " Niji (Rainbow) colorscheme for Lisp
 Bundle 'amdt/vim-niji'
 
+" Solarize colorscheme
+Bundle 'altercation/vim-colors-solarized'
+
+" Enable solarize colorscheme
+syntax enable
+set background=dark
+colorscheme solarized
 
 "Remove arrow keys
 noremap <Up> <NOP>
