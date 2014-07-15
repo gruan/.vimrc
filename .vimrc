@@ -62,3 +62,8 @@ noremap <Right> <NOP>
 
 "Show line numbers
 set number
+
+"Allows mouse scrolling
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
