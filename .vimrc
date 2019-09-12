@@ -1,10 +1,9 @@
-"Personal preferenc .vimrc file
+"Personal preference .vimrc file
 "Maintained by George Ruan <ruan.george@gmail.com>
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
+"Make sure to install Vundle and run :PluginInstall
 
-set nocompatible              " be iMproved, required
+set nocompatible              " be improved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
@@ -46,13 +45,8 @@ filetype plugin indent on    " required
 " Niji (Rainbow) colorscheme for Lisp
 Bundle 'amdt/vim-niji'
 
-" Solarize colorscheme
-Bundle 'altercation/vim-colors-solarized'
-
 " Enable solarize colorscheme
 syntax enable
-set background=dark
-colorscheme solarized
 
 "Remove arrow keys
 noremap <Up> <NOP>
